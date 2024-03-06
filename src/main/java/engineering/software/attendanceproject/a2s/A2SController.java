@@ -3,7 +3,7 @@ package engineering.software.attendanceproject.a2s;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 
-public class HelloController {
+public class A2SController {
     @FXML
     private Label welcomeText;
 
