@@ -4,17 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8bd346f7-cc52-4ca5-9e8e-b1f89eb0924f" name="Changes" comment="Initial Commit">
+    <list default="true" id="8bd346f7-cc52-4ca5-9e8e-b1f89eb0924f" name="Changes" comment="renamed main classes to fit program better">
+      <change afterPath="$PROJECT_DIR$/src/main/java/engineering/software/attendanceproject/a2s/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/engineering/software/attendanceproject/a2s/StudentList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/engineering/software/attendanceproject/a2s/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/engineering/software/attendanceproject/a2s/A2S.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/engineering/software/attendanceproject/a2s/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/engineering/software/attendanceproject/a2s/A2SController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/engineering/software/attendanceproject/a2s/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/engineering/software/attendanceproject/a2s/hello-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -78,11 +83,20 @@
       <option name="project" value="LOCAL" />
       <updated>1709762111468</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="renamed main classes to fit program better">
+      <option name="closed" value="true" />
+      <created>1709767237671</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709767237671</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="renamed main classes to fit program better" />
+    <option name="LAST_COMMIT_MESSAGE" value="renamed main classes to fit program better" />
   </component>
 </project>
