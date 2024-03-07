@@ -2,6 +2,7 @@ package engineering.software.attendanceproject.a2s;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Map;
 
 
 /*
@@ -12,13 +13,16 @@ class to keep track of attendance for a single day
 
 public class Attendance {
 
-    HashMap<Integer, AttendanceInformation> studentInformationMap = new HashMap<>();
+    private boolean finalized = false;
+    public HashMap<Integer, AttendanceInformation> studentInformationMap = new HashMap<>();
 
     public AttendanceInformation getStudentAttendanceInformation(int studentId) {
         return studentInformationMap.get(studentId);
     }
 
     public void addStudentsToAttendance(ArrayList<Student> students) {
+
+        if (isFinalized()) return;
 
         for (Student student : students) {
 
@@ -30,5 +34,22 @@ public class Attendance {
 
         }
 
+    }
+
+    public void finalizeAttendance() {
+
+        for (Map.Entry<Integer, AttendanceInformation> studentInformationEntry : studentInformationMap.entrySet()) {
+
+            AttendanceInformation studentAttendanceInformation = studentInformationEntry.getValue();
+            studentAttendanceInformation.finalizeAttendance();
+
+        }
+
+        finalized = true;
+    }
+
+    public boolean isFinalized() {
+
+        return finalized;
     }
 }

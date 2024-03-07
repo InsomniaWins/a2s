@@ -8,8 +8,10 @@ package engineering.software.attendanceproject.a2s;
  */
 public class AttendanceInformation {
 
+    private boolean finalized = false;
     private Student student;
     private boolean present = true;
+    private boolean excused = false;
     private boolean tardy = false;
 
 
@@ -18,13 +20,25 @@ public class AttendanceInformation {
     }
 
     public void setPresent(boolean value) {
+
+        if (isFinalized()) return;
+
         present = value;
     }
 
     public void setTardy(boolean value) {
+
+        if (isFinalized()) return;
+
         tardy = value;
     }
 
+    public void setExcused(boolean value) {
+
+        if (isFinalized()) return;
+
+        excused = value;
+    }
 
 
     public boolean isPresent() {
@@ -43,6 +57,10 @@ public class AttendanceInformation {
         return !tardy;
     }
 
+    public boolean isExcused() {
+        return excused;
+    }
+
     @Override
     public String toString() {
         if (student == null) {
@@ -54,6 +72,14 @@ public class AttendanceInformation {
                 ", Present: " + isPresent() +
                 ", Tardy: " + isTardy() +
                 "}";
+    }
+
+    public boolean isFinalized() {
+        return finalized;
+    }
+
+    public void finalizeAttendance() {
+        finalized = false;
     }
 
 }

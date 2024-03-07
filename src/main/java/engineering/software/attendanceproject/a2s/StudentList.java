@@ -2,6 +2,7 @@ package engineering.software.attendanceproject.a2s;
 
 
 import java.util.ArrayList;
+import java.util.Comparator;
 
 
 /*
@@ -25,6 +26,16 @@ public class StudentList {
 
         students.add(student);
         return true;
+    }
+
+
+    /*
+
+        sorts students alphabetically
+
+     */
+    public static void sortStudents() {
+        students.sort(Comparator.comparing(Student::getLastName));
     }
 
     /*

@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8bd346f7-cc52-4ca5-9e8e-b1f89eb0924f" name="Changes" comment="Added AttendanceInformation class">
+    <list default="true" id="8bd346f7-cc52-4ca5-9e8e-b1f89eb0924f" name="Changes" comment="students can now be marked present/absent and tardy/on-time">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/engineering/software/attendanceproject/a2s/A2S.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/engineering/software/attendanceproject/a2s/A2S.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/engineering/software/attendanceproject/a2s/A2SController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/engineering/software/attendanceproject/a2s/A2SController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/engineering/software/attendanceproject/a2s/Attendance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/engineering/software/attendanceproject/a2s/Attendance.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/engineering/software/attendanceproject/a2s/AttendanceInformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/engineering/software/attendanceproject/a2s/AttendanceInformation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/engineering/software/attendanceproject/a2s/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/engineering/software/attendanceproject/a2s/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/engineering/software/attendanceproject/a2s/StudentList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/engineering/software/attendanceproject/a2s/StudentList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +51,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/insom/AppData/Local/SceneBuilder/SceneBuilder.exe",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RunManager">
@@ -109,7 +113,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709769506228</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="students can now be marked present/absent and tardy/on-time">
+      <option name="closed" value="true" />
+      <created>1709770317241</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1709770317241</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -117,6 +129,7 @@
     <MESSAGE value="renamed main classes to fit program better" />
     <MESSAGE value="Added StudentList and Student classes" />
     <MESSAGE value="Added AttendanceInformation class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added AttendanceInformation class" />
+    <MESSAGE value="students can now be marked present/absent and tardy/on-time" />
+    <option name="LAST_COMMIT_MESSAGE" value="students can now be marked present/absent and tardy/on-time" />
   </component>
 </project>
