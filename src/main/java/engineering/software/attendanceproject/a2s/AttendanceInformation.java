@@ -8,9 +8,14 @@ package engineering.software.attendanceproject.a2s;
  */
 public class AttendanceInformation {
 
+    private Student student;
     private boolean present = true;
     private boolean tardy = false;
 
+
+    public AttendanceInformation(Student student) {
+        this.student = student;
+    }
 
     public void setPresent(boolean value) {
         present = value;
@@ -36,6 +41,19 @@ public class AttendanceInformation {
 
     public boolean isOnTime() {
         return !tardy;
+    }
+
+    @Override
+    public String toString() {
+        if (student == null) {
+            return "Attendance Information: NO STUDENT!";
+        }
+
+        return "Attendance Information: {" +
+                "Name: " + student.getFullName() +
+                ", Present: " + isPresent() +
+                ", Tardy: " + isTardy() +
+                "}";
     }
 
 }

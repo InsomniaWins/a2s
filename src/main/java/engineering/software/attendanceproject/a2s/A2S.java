@@ -20,5 +20,14 @@ public class A2S extends Application {
 
     public static void main(String[] args) {
         launch();
+
+        StudentList.addStudent(new Student(0, "Andrew", 'm', "Ingram"));
+
+        Attendance dailyAttendance = new Attendance();
+        dailyAttendance.addStudentsToAttendance(StudentList.getStudents());
+
+        AttendanceInformation studentAttendanceInformation = dailyAttendance.getStudentAttendanceInformation(0);
+        System.out.println(studentAttendanceInformation);
+
     }
 }

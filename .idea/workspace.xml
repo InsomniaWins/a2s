@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8bd346f7-cc52-4ca5-9e8e-b1f89eb0924f" name="Changes" comment="Added StudentList and Student classes">
-      <change afterPath="$PROJECT_DIR$/src/main/java/engineering/software/attendanceproject/a2s/Attendance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/engineering/software/attendanceproject/a2s/AttendanceInformation.java" afterDir="false" />
+    <list default="true" id="8bd346f7-cc52-4ca5-9e8e-b1f89eb0924f" name="Changes" comment="Added AttendanceInformation class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/engineering/software/attendanceproject/a2s/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/engineering/software/attendanceproject/a2s/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/engineering/software/attendanceproject/a2s/A2S.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/engineering/software/attendanceproject/a2s/A2S.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/engineering/software/attendanceproject/a2s/Attendance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/engineering/software/attendanceproject/a2s/Attendance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/engineering/software/attendanceproject/a2s/AttendanceInformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/engineering/software/attendanceproject/a2s/AttendanceInformation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/engineering/software/attendanceproject/a2s/StudentList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/engineering/software/attendanceproject/a2s/StudentList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,13 +101,22 @@
       <option name="project" value="LOCAL" />
       <updated>1709768658611</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added AttendanceInformation class">
+      <option name="closed" value="true" />
+      <created>1709769506228</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709769506228</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="renamed main classes to fit program better" />
     <MESSAGE value="Added StudentList and Student classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added StudentList and Student classes" />
+    <MESSAGE value="Added AttendanceInformation class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added AttendanceInformation class" />
   </component>
 </project>

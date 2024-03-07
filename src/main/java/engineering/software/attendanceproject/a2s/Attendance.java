@@ -14,21 +14,21 @@ public class Attendance {
 
     HashMap<Integer, AttendanceInformation> studentInformationMap = new HashMap<>();
 
+    public AttendanceInformation getStudentAttendanceInformation(int studentId) {
+        return studentInformationMap.get(studentId);
+    }
+
     public void addStudentsToAttendance(ArrayList<Student> students) {
 
         for (Student student : students) {
 
-            AttendanceInformation studentInformation = new AttendanceInformation();
+            AttendanceInformation studentAttendanceInformation = new AttendanceInformation(student);
+            studentAttendanceInformation.setPresent(true);
+            studentAttendanceInformation.setTardy(false);
 
-            studentInformation.setPresent(true);
-            studentInformation.setTardy(false);
-
-            studentInformationMap.put(student.getStudentId(), studentInformation);
+            studentInformationMap.put(student.getStudentId(), studentAttendanceInformation);
 
         }
 
     }
-
-
-
 }
